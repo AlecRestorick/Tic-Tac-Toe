@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff;
+}
+
+.game-container {
+  text-align: center;
+  
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  column-gap: 5px;
+  row-gap:1px;
+  margin: 20px 0;
+}
+
+.board-cell {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  cursor: pointer;
+  background-color: white;
+  border-radius:4px;
+}
+
+.board-cell:hover {
+  background-color: #fff;
+}
